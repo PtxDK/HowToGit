@@ -69,6 +69,10 @@ Source: https://help.github.com/articles/generating-ssh-keys/
     git checkout master
     git merge branchname
 
+###### To remove the last commit (Might be dangerous for others working on project)
+    git rebase -i HEAD~2
+    git push -f origin branchName
+
 ###### If you have commited and pushed file changes to remote and would like to revert the changes to this specifik file
 
     git checkout HEAD~ -- path/to/file
