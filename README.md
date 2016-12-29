@@ -79,5 +79,13 @@ Source: https://help.github.com/articles/generating-ssh-keys/
     git commit --amend -CHEAD
     git push --force-with-lease origin <branchname>
 
+###### If you would like to change the lastest commit message(given no one pulled the recent changes)
+    git commit --amend -m "New commit message"
+    git push --force origin <branchname>
+
+
+
+
+
 ###### Having trouble with keeping up with git? Try this
 * http://pcottle.github.io/learnGitBranching/
