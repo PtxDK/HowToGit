@@ -54,6 +54,10 @@ Source: https://help.github.com/articles/generating-ssh-keys/
 
     git pull
 
+##### View unpushed changes (compare your local HEAD with master remote)
+
+    git diff origin/master..HEAD
+
 ##### Branching
 
 ###### Create and start working on new branch
