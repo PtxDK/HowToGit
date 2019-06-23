@@ -28,6 +28,10 @@ Now copy the latest output and go to GitHub to add the public SSH Key to your ac
 
 Source: https://help.github.com/articles/generating-ssh-keys/
 
+Also you can copy the local public key to remote server using this command:
+
+    ssh-copy-id -i id_ed25519.pub user@hostname
+
 ###### Download repository from github
 
     git clone git@github.com:Username/Repo.git
