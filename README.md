@@ -14,7 +14,7 @@ Generates a new set of SSH-keys both private and public, it will ask you to crea
     cd .ssh && ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 
-Add your private SSH-Key to your computers ssh-mannager
+Add your private SSH-Key to your computers ssh-mannager (if ssh-add does not work, run `eval \`ssh-agent -s\``
 
     ssh-add
 
